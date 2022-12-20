@@ -567,6 +567,10 @@ html {
   margin-right: 16px;
 }
 
+.second-field a {
+  text-decoration: none;
+  color: black;
+}
 .badge-box {
   padding-top: 16px;
   padding-left: 16px;
@@ -663,4 +667,8 @@ h2 {
   padding-top: 4px;
   padding-bottom: 16px;
   margin: 0%;
+}
+
+#bt-two {
+  margin-left: 2%;
 }
