@@ -24,6 +24,7 @@ body {
   --second-badge-text-color-hover: white;
 }
 
+
 [data-theme="dark"] {
   --border-badge-light: white;
   --footer-color: #eb3448;

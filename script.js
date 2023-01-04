@@ -1,4 +1,3 @@
-document.getElementById("bl").style.backgroundColor = "#eb3448";
 
 function toDark() {
   document.documentElement.setAttribute("data-theme", "dark");
@@ -13,3 +12,13 @@ function toLight() {
   document.getElementById("bl").style.backgroundColor = "white";
   localStorage.setItem("theme", "light");
 }
+
+window.addEventListener('load',
+  function () {
+    const theme = localStorage.getItem("theme")
+    if (!theme && window.matchMedia("(prefers-color-scheme: dark)") || theme === "dark")
+      toDark();
+    else
+      toLight();
+  }, false);
+
