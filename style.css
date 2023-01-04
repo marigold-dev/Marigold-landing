@@ -181,30 +181,18 @@ html {
 
 @media screen and (min-width: 1100px) and (max-width: 1550px) {
   .head {
-    background-image: url("assets/header/bg-header.png");
-    background-repeat: no-repeat;
-    background-size: 140%;
-    background-position: 50% -220px;
     padding-bottom: 200px;
   }
 }
 
 @media screen and (min-width: 1550px) {
   .head {
-    background-image: url("assets/header/bg-header.png");
-    background-repeat: no-repeat;
-    background-size: 140%;
-    background-position: 50% -70%;
     padding-bottom: 200px;
   }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1300px) {
   .head {
-    background-image: url("assets/header/bg-header.png");
-    background-repeat: no-repeat;
-    background-size: 180%;
-    background-position: 50% -23%;
     padding-bottom: 140px;
   }
 }
