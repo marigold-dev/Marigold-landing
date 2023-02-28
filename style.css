@@ -24,7 +24,6 @@ body {
   --second-badge-text-color-hover: white;
 }
 
-
 [data-theme="dark"] {
   --border-badge-light: white;
   --footer-color: #eb3448;
@@ -76,7 +75,7 @@ html {
   font-weight: 400;
   font-size: 26px;
   align-self: center;
-  margin-right: 3px;
+  margin-right: 0px;
 }
 
 .title-logo {
@@ -478,8 +477,8 @@ html {
   display: grid;
   justify-content: center;
   align-content: center;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10.5%;
   padding-top: 4%;
 }
 
@@ -490,7 +489,6 @@ html {
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
 }
@@ -509,7 +507,6 @@ html {
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4%;
     padding-top: 4%;
   }
 }
@@ -521,7 +518,6 @@ html {
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2%;
     padding-top: 4%;
   }
 }
@@ -533,7 +529,6 @@ html {
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2%;
     padding-top: 4%;
   }
 }
@@ -570,7 +565,7 @@ html {
 
 .second-field a {
   text-decoration: none;
-  color: var(--text-color)k;
+  color: var(--text-color) k;
 }
 
 .badge-box {
